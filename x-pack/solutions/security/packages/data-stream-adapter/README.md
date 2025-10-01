@@ -23,7 +23,7 @@ dataStream.setIndexTemplate({
     name: 'awesome-index-template',
     componentTemplateRefs: ['awesome-component-template', 'ecs-component-template'],
     template: {
-        lifecycle: {
+        lifecycle: {yarn 
             data_retention: '5d',
         },
     },

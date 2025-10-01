@@ -1,0 +1,22 @@
+{
+  "extends": "../../../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "target/types"
+  },
+  "include": [
+    "index.ts",
+    "public/**/*",
+    "server/**/*.ts",
+    "common/**/*.ts",
+    "scripts/**/*.ts",
+    "__jest__/**/*",
+    "../../../../typings/**/*"
+  ],
+  "exclude": [
+    "target/**/*"
+  ],
+  "kbn_references": [
+    "@kbn/core",
+    "@kbn/fields-metadata-plugin"
+  ]
+}
